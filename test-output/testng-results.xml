@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81002" started-at="2020-09-27T06:19:00Z" finished-at="2020-09-27T06:20:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81002" started-at="2020-09-27T06:19:00Z" finished-at="2020-09-27T06:20:21Z">
+      <class name="Demo.DemoTest.ClearTripFlight">
+        <test-method status="PASS" signature="launchAPP()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="launchAPP" is-config="true" duration-ms="10360" started-at="2020-09-27T11:49:00Z" finished-at="2020-09-27T11:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAPP -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="searchFlight" duration-ms="2696" started-at="2020-09-27T11:49:10Z" finished-at="2020-09-27T11:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method status="PASS" signature="filteroutFlights()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="filteroutFlights" duration-ms="16111" started-at="2020-09-27T11:49:13Z" depends-on-methods="Demo.DemoTest.ClearTripFlight.searchFlight" finished-at="2020-09-27T11:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteroutFlights -->
+        <test-method status="PASS" signature="switchToChildW()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="switchToChildW" duration-ms="3902" started-at="2020-09-27T11:49:29Z" depends-on-methods="Demo.DemoTest.ClearTripFlight.filteroutFlights" finished-at="2020-09-27T11:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToChildW -->
+        <test-method status="PASS" signature="confirmBooking()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="confirmBooking" duration-ms="8816" started-at="2020-09-27T11:49:33Z" depends-on-methods="Demo.DemoTest.ClearTripFlight.switchToChildW" finished-at="2020-09-27T11:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmBooking -->
+        <test-method status="PASS" signature="travellersDetails()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="travellersDetails" duration-ms="4065" started-at="2020-09-27T11:49:41Z" depends-on-methods="Demo.DemoTest.ClearTripFlight.confirmBooking" finished-at="2020-09-27T11:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellersDetails -->
+        <test-method status="PASS" signature="paymentDetails()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="paymentDetails" duration-ms="34960" started-at="2020-09-27T11:49:46Z" depends-on-methods="Demo.DemoTest.ClearTripFlight.travellersDetails" finished-at="2020-09-27T11:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentDetails -->
+        <test-method status="PASS" signature="closeAPP()[pri:0, instance:Demo.DemoTest.ClearTripFlight@45dd4eda]" name="closeAPP" is-config="true" duration-ms="57" started-at="2020-09-27T11:50:20Z" finished-at="2020-09-27T11:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAPP -->
+      </class> <!-- Demo.DemoTest.ClearTripFlight -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
